@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DEBB6603-2BC0-4F97-99A4-F3BA27BF0129}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DAB0C42B-2FE3-486C-A825-8669612DEAB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IBM.Api.Weather.CleanedHistoric", "src\IBM.Api.Weather.CleanedHistoric\IBM.Api.Weather.CleanedHistoric.csproj", "{8709B040-5F0D-4CD8-9D32-732F863AC662}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IBM.Api.Weather.IntegrationTests", "tests\IBM.Api.Weather.IntegrationTests\IBM.Api.Weather.IntegrationTests.csproj", "{4D16808D-5EA3-4538-B54E-024F2A15FB3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8709B040-5F0D-4CD8-9D32-732F863AC662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8709B040-5F0D-4CD8-9D32-732F863AC662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8709B040-5F0D-4CD8-9D32-732F863AC662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8709B040-5F0D-4CD8-9D32-732F863AC662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D16808D-5EA3-4538-B54E-024F2A15FB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D16808D-5EA3-4538-B54E-024F2A15FB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D16808D-5EA3-4538-B54E-024F2A15FB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D16808D-5EA3-4538-B54E-024F2A15FB3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8709B040-5F0D-4CD8-9D32-732F863AC662} = {DEBB6603-2BC0-4F97-99A4-F3BA27BF0129}
+		{4D16808D-5EA3-4538-B54E-024F2A15FB3F} = {DAB0C42B-2FE3-486C-A825-8669612DEAB9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8C4A6C6-111D-4116-B2C5-7FE0A2F5F2E7}
+	EndGlobalSection
+EndGlobal
